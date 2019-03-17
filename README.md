@@ -17,8 +17,7 @@ try {
     //handle error
 }</pre>
 <h3>Decrypt</h3>
-<pre>String password = "password";
-String password = "password";
+<pre>String password = "password"; 
 String encryptedMsg = "2B22cS3UC5s35WBihLBo8w==";
 try {
     String messageAfterDecrypt = AESCrypt.decrypt(password, encryptedMsg);
